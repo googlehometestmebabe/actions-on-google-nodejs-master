@@ -29,6 +29,7 @@ const debug = Debug('actions-on-google:debug');
 const error = Debug('actions-on-google:error');
 
 // Response Builder classes
+const RichResponse = require('./response-builder').RichResponse;
 const BasicCard = require('./response-builder').BasicCard;
 const List = require('./response-builder').List;
 const Carousel = require('./response-builder').Carousel;
